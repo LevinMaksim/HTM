@@ -1,0 +1,22 @@
+*{
+    justify-content:center ;
+}
+#menu {
+    display: flex;
+}
+#menu a {
+    
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: black;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+}
+#menu a:hover, #menu a.active {
+    
+    color: black;
+    border: 1px solid yellowgreen;
+    background-color: #F5F6FA;
+}

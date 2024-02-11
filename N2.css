@@ -1,0 +1,26 @@
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+    margin: 2px;
+}
+#menu a {
+    
+  
+    margin-left: 5px;
+    padding: 15px 25px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: yellowgreen;
+}
+#menu a:hover, #menu a.active {
+    
+    
+    color: black;
+    border: 2px solid black;
+    background-color: #F5F6FA;
+}

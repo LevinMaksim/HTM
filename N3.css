@@ -1,0 +1,28 @@
+
+#menu {
+
+    display: flex;
+    background-color: yellowgreen;
+    width: 80%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: normal;
+}
+#menu a {
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 20px 40px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: black;
+    
+    background-color: yellowgreen;
+}
+#menu a:hover, #menu a.active {
+    
+    
+    color: black;
+    
+    background-color: #3ebe2d;
+}
